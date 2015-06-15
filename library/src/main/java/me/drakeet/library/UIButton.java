@@ -48,15 +48,18 @@ public class UIButton extends UIBaseButton {
 
     public UIButton(Context context, AttributeSet attrs) {
         super(context, attrs);
+		init(context, attrs);
     }
 
     public UIButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+		init(context, attrs);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public UIButton(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+		init(context, attrs);
     }
 
     @Override

@@ -114,9 +114,9 @@ public class UIRippleButton extends UIBaseButton {
         if (canvas != null && pointX >= 0 && pointY >= 0){
             int rbX = canvas.getWidth();
             int rbY = canvas.getHeight();
-            float longDis = Math.max(pointX, pointY);
-            longDis = Math.max(longDis, Math.abs(rbX - pointX));
-            longDis = Math.max(longDis, Math.abs(rbY - pointY));
+            float x_max =  Math.max(pointX, Math.abs(rbX - pointX));
+            float y_max =  Math.max(pointY, Math.abs(rbY - pointY));
+            float longDis = (float) Math.sqrt(x_max*x_max+y_max*y_max);
             if (mRippleRadius > longDis) {
                 onCompleteDrawRipple();
                 return;
