@@ -77,7 +77,7 @@ public class UIRippleButton extends UIBaseButton {
                 R.styleable.UIButton_ripple_duration, 1000
         );
         mShapeType = typedArray.getInt(R.styleable.UIButton_shape_type, 1);
-        mRoundRadius = typedArray.getDimensionPixelSize(R.styleable.UIButton_radius,
+        mRoundRadius = typedArray.getDimensionPixelSize(R.styleable.UIButton_auv_radius,
                 getResources().getDimensionPixelSize(R.dimen.ui_radius));
         typedArray.recycle();
         mRipplePaint = new Paint();

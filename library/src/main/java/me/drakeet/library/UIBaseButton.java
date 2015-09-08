@@ -46,7 +46,7 @@ public class UIBaseButton extends Button {
         if (isInEditMode()) return;
         final TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.UIButton);
         mShapeType = typedArray.getInt(R.styleable.UIButton_shape_type, 1);
-        mRadius = typedArray.getDimensionPixelSize(R.styleable.UIButton_radius, getResources().getDimensionPixelSize(R.dimen.ui_radius));
+        mRadius = typedArray.getDimensionPixelSize(R.styleable.UIButton_auv_radius, getResources().getDimensionPixelSize(R.dimen.ui_radius));
         int unpressedColor = typedArray.getColor(R.styleable.UIButton_color_unpressed, Color.TRANSPARENT);
         typedArray.recycle();
 

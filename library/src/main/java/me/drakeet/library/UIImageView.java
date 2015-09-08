@@ -67,7 +67,7 @@ public class UIImageView extends ImageView {
         mPressedColor = typedArray.getColor(R.styleable.UIButton_color_pressed, getResources().getColor(R.color.color_pressed));
         PAINT_ALPHA = typedArray.getInteger(R.styleable.UIButton_alpha_pressed, PAINT_ALPHA);
         mShapeType = typedArray.getInt(R.styleable.UIButton_shape_type, 1);
-        mRadius = typedArray.getDimensionPixelSize(R.styleable.UIButton_radius, getResources().getDimensionPixelSize(R.dimen.ui_radius));
+        mRadius = typedArray.getDimensionPixelSize(R.styleable.UIButton_auv_radius, getResources().getDimensionPixelSize(R.dimen.ui_radius));
         typedArray.recycle();
         mPaint = new Paint();
         mPaint.setStyle(Paint.Style.FILL);

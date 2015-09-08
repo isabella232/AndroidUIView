@@ -23,7 +23,7 @@
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="16dp"
-                drakeet:radius="6dp"
+                drakeet:auv_radius="6dp"
                 android:background="@mipmap/ic_launcher" />
 
             <TextView
@@ -49,7 +49,7 @@
                 android:text="UIButton"
                 android:textSize="10sp"
                 android:background="@android:color/transparent" />
-            <!--drakeet:radius="2dp" is default-->
+            <!--drakeet:auv_radius="2dp" is default-->
 
             <TextView
                 android:layout_width="wrap_content"

@@ -84,7 +84,7 @@ You can change several attributes in the XML file:
 * `drakeet:alpha_pressed` [integer def:48 0-255] --> Alpha of the cover color when pressed
 * `drakeet:color_pressed` [color def:#9c000000] --> Color of the cover when pressed
 * `drakeet:shape_type` [enum (rectangle, round) def:rectangle] --> Rectangle or round of cover or background view shape
-* `drakeet:radius` [dimension def:2dp] --> Add a radius to the cover
+* `drakeet:auv_radius` [dimension def:2dp] --> Add a radius to the cover
 
 ## THANKS
 
